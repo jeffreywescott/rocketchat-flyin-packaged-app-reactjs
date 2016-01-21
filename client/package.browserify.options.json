@@ -1,0 +1,8 @@
+{
+  "transforms": {
+    "envify": {
+      "NODE_ENV": "production",
+      "_": "purge"
+    }
+  }
+}
