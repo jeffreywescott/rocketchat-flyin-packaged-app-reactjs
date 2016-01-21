@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'jeffreywescott:rocketchat-flyin-packaged-app-reactjs',
-	version: '0.0.2',
+	version: '0.0.3',
 	summary: 'Test /slash commands to fly-in a tab',
 	git: 'https://github.com/jeffreywescott/rocketchat-flyin-packaged-app-reactjs.git'
 })
