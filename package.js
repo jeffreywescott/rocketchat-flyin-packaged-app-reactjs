@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'jeffreywescott:rocketchat-flyin-packaged-app-reactjs',
-	version: '0.0.1',
+	version: '0.0.2',
 	summary: 'Test /slash commands to fly-in a tab',
 	git: 'https://github.com/jeffreywescott/rocketchat-flyin-packaged-app-reactjs.git'
 })
@@ -12,7 +12,7 @@ Npm.depends({
 Package.onUse(function(api) {
 	api.versionsFrom('1.2');
 
-	api.use(['rocketchat:lib@0.0.1'], { weak: true })
+	api.use(['rocketchat:lib@0.0.1'], ['client', 'server'], { weak: true, unordered: false })
 
 	// client
 	api.use([
