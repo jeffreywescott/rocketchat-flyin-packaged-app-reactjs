@@ -12,7 +12,7 @@ Npm.depends({
 Package.onUse(function(api) {
 	api.versionsFrom('1.2');
 
-	api.use(['rocketchat:lib'], { weak: true })
+	api.use(['rocketchat:lib@0.0.1'], { weak: true })
 
 	// client
 	api.use([
